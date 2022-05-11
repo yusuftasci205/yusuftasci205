@@ -1,6 +1,12 @@
 [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
-
-                     
+ 
+ 
+ root = 7 için
+ 
+ 5 sayısı 7 den küçük olduğu için 7 sayısının soluna ekledik
+ 8 sayısı 7'den büyük olduğu için 7 sayısının  sağına ekledik
+ 3 sayısı 7'den ve 5'ten küçük olduğunda 5'in soluna, 1'den büyük olduğunda 1'in sağına ekledik
+ bu şekilde ilerleyerek küçük sayıyı sola büyük sayıyı sağa ekledik.                    
                       7
                    5     8
                 1    6       9
